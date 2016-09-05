@@ -1,7 +1,7 @@
 https://github.com/okushchenko/nuclear_labs
 
-# Посмотреть параметры
+# Check config
 cat ./lab.py
 
-# Запустить симуляцию
+# Run simulation
 env particle_energy="1250" detector_material="Al" ./lab.py
